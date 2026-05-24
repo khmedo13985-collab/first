@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(24, 2, 2);
+    background-color: rgb(172, 128, 128);
 }
 div{
     width: 200px;
@@ -16,4 +16,11 @@ div:hover{
 }
 a{
     color: white;
+}
+button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
