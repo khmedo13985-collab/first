@@ -1,0 +1,19 @@
+
+body{
+    background-color: rgb(24, 2, 2);
+}
+div{
+    width: 200px;
+    height: 200px;
+   background-color: red;
+  transition: all 1s ease;
+  animation-name: aaaa;
+}
+div:hover{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+a{
+    color: white;
+}
