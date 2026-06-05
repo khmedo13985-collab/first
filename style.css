@@ -28,3 +28,7 @@ button{
 #kk{
 color: rgb(7, 105, 53);
 }
+p::before{
+    content: 'text';
+    color: rgb(25, 146, 41);
+}
