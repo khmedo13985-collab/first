@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to right, #01010bfa, #01010bb5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 90%;
+    height: 85vh;
+    max-width: 1200px;
+    background-image: linear-gradient(to right, hsla(248, 76%, 8%, 0.605), #0202168f);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+body::after{
+  content: "";
+  width: 100%; 
+    height: 100%; 
+    clip-path: circle(40% at right 70%);
+    background-color: #ef01018f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding: 20px 40px;
+   box-sizing: border-box;
+   position: relative;
+   z-index: 10;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+nav .logo:hover{
+    color: #ef0101;
+    transition: 1s;
+}
+nav ul li {
+   display :inline-block;
+   text-decoration: none;
+   margin: 0 7px;
+   color: rgb(42, 5, 102);
+  
+   
+}
+nav ul li a {
+
+    color: rgb(245, 242, 242);
+   text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #f4e6e8;
+    transition: 1s;
+}
+.content{
+    color: rgb(49, 4, 4);
+    width: 50%;
+    
+    margin: 100px;
+}
+
+.content a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(228, 227, 227);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.content h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(148, 42, 42);
+}
+.content p{
+    color: rgb(103, 22, 22);
+    font-size: 20px;
+}
+.content a:hover{
+    background-color: #d4d4e6;
+    color: rgb(114, 13, 13);
+}
+.content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+justify-content: space-between;
+
+}
+.image img{
+  
+   width: 70%;
+    height: 50%;
+    display: block;
+  }

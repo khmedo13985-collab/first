@@ -1,0 +1,82 @@
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* removed invalid token */
+}
+
+body{
+   
+    background-image: linear-gradient(to right, #020239fa, #060639e7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    width: 80%;
+    height: 660px;
+    background-image: linear-gradient(to right, hsla(248, 60%, 32%, 0.605), #1d1d8c8f),
+        url(1076850.jpg);
+   
+
+
+}
+.container:hover{
+    width: 80%;
+    height: 660px;
+  background-image: linear-gradient(to right, rgba(5, 5, 46, 0.811),  transparent),
+  url(1076850.jpg);
+
+
+}
+header{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+ul a{
+    border-bottom: 2px solid white transparent;
+}
+ul a:hover{
+    border-bottom: 2px solid white;
+}
+.content{
+    color: rgb(11, 1, 1);
+    width: 50%;
+    
+    margin: 100px;
+}
+
+.content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(137,137,178,0.56);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.content h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.content a:hover{
+    background-color: #03030f;
+    color: white;
+}
